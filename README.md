@@ -1,4 +1,4 @@
- # 🚀 Are.na Channel Export Tool
+# 🚀 Are.na Channel Export Tool
 
 Automated tool for exporting Are.na channels using Selenium and Python.
 
@@ -6,12 +6,13 @@ Automated tool for exporting Are.na channels using Selenium and Python.
 
 ```bash
 # 1. Clone the repository and navigate to directory
-git clone https://github.com/yourusername/arena-channel-export.git
-cd arena-channel-export
+git clone https://github.com/Drixled/aredotna-export-tool.git
+cd aredotna-export-tool
 
 # 2. Set up Python virtual environment
 python3 -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
+# Windows: venv\Scripts\activate
 
 # 3. Install project dependencies
 pip install -r requirements.txt
@@ -28,11 +29,18 @@ sudo apt install chromium-chromedriver
 
 Create a `.env` file in the project root:
 ```plaintext
-ARENA_EMAIL=<your_email>
-ARENA_PASSWORD=<your_password>
-ARENA_USERNAME=<your_username>
-CHROMEDRIVER_PATH=<path_to_chromedriver>
+ARENA_EMAIL=your_email
+ARENA_PASSWORD=your_password
+ARENA_USERNAME=your_username
+CHROMEDRIVER_PATH=path_to_chromedriver
 ```
+
+<!-- Possible ChromeDriver Paths Based on Architecture -->
+
+- **Apple Silicon (M1/M2):** `/opt/homebrew/bin/chromedriver`
+- **Intel Macs:** `/usr/local/bin/chromedriver`
+- **Linux (APT/YUM Installation):** `/usr/bin/chromedriver`
+- **Custom Path (User-Specified):** `/path/to/your/custom/chromedriver`
 
 ## 🎯 Usage
 
