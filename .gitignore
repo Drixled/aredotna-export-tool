@@ -1,0 +1,23 @@
+# Ignore environment files
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore downloads folder (if used)
+downloads/
+
+# Ignore test artifacts
+.coverage
+htmlcov/
