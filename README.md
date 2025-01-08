@@ -1,6 +1,6 @@
 # 🚀 Are.na Channel Export Tool
 
-Automated tool for exporting Are.na channels using Selenium and Python.
+Automated tool for exporting all Are.na channels instead one by one using Selenium and Python.
 
 ## ⚙️ Setup
 
